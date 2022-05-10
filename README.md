@@ -17,16 +17,16 @@ npm run start
 http://localhost:3000/data
 ```
 ### ไม่ต้องส่งข้อมูล จะรีเทรนออกมากเป็น Array
+## 2. สมัคร
 ```
 http://localhost:3000/register
 ```
-## ต้องส่งข้อมูลเป็น Json 
- ```
-{
-  "email":"Sakon4", 
-  "password":"flukgoza@gmail.com"
-}
-```
+### ต้องส่งข้อมูลเป็น Json { "email":"Sakon4", "password":"flukgoza@gmail.com"} 
+### ถ้าถูกต้องไม่ซ้ำกับใครจะได้ Output เป็น Register is correct ถ้าไม้ Register is incorrect
+
+## 3. ล็อคอิน
 ```
 http://localhost:3000/login
 ```
+### ต้องส่งข้อมูลเป็น Json { "email":"Sakon4", "password":"flukgoza@gmail.com"} 
+### ถ้าถูกต้องไม่ซ้ำกับใครจะได้ Output เป็น Login is correct ถ้าไม้ Login is incorrect
