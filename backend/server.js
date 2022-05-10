@@ -1,7 +1,8 @@
 const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
-
+const cors = require("cors")
+app.use(cors)
 const MONGODB_URI =
   process.env.MONGODB_URI || 'mongodb+srv://admin:172352@cluster0.frwzf.mongodb.net/CollectDb?retryWrites=true&w=majority'
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })

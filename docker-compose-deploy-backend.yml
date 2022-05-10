@@ -2,6 +2,6 @@ version: "3.7"
 
 services:
   backend:
-    image: flukgoza/team-7-backend:1.1.3
+    image: flukgoza/backend
     ports:
-      - "1111:1111"
+      - "3000:3000"

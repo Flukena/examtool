@@ -1,4 +1,4 @@
-# exam
+# frontend
 
 ## Project setup
 ```
