@@ -10,17 +10,18 @@ npm run start
 ```
 
 # การทดสอบแต่เทส api ด้วย postman
-### API ที่มีทั้งหมด
+## API ที่มีทั้งหมด
+
+## 1. เรียกดูข้อมูลทั้งหมด
 ```
 http://localhost:3000/data
 ```
-ไม่ต้องส่งข้อมูล
-จะรีเทรนออกมากเป็น Array
+### ไม่ต้องส่งข้อมูล จะรีเทรนออกมากเป็น Array
 ```
 http://localhost:3000/register
 ```
 ## ต้องส่งข้อมูลเป็น Json 
-## ```
+ ```
 {
   "email":"Sakon4", 
   "password":"flukgoza@gmail.com"
