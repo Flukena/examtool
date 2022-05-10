@@ -14,7 +14,18 @@ npm run start
 ```
 http://localhost:3000/data
 ```
+ไม่ต้องส่งข้อมูล
+จะรีเทรนออกมากเป็น Array
+```
 http://localhost:3000/register
+```
+ต้องส่งข้อมูลเป็น Json 
+```
+{
+  "email":"Sakon4", 
+  "password":"flukgoza@gmail.com"
+}
+```
 ```
 http://localhost:3000/login
 ```
