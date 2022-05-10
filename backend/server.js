@@ -1,6 +1,5 @@
 const express = require('express')
 const app = express()
-const Product = require('./models/product')
 const mongoose = require('mongoose')
 
 const MONGODB_URI =
@@ -12,8 +11,10 @@ mongoose.connection.on('error', err => {
 
 
 app.use(express.json())
-const productRouter = require('./controllers/productController')
-app.use(productRouter)
+const UsersRouter = require('./controllers/userController')
+const groupRouter = require('./controllers/groupController')
+app.use(UsersRouter)
+app.use(groupRouter)
 // app.get('/products', async (req, res) => {
 //   const products = await Product.find({})
 //   res.json(products)
