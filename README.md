@@ -30,3 +30,8 @@ http://localhost:3000/login
 ```
 ### ต้องส่งข้อมูลเป็น Json { "email":"Sakon4", "password":"flukgoza@gmail.com"} 
 ### ถ้าถูกต้องไม่ซ้ำกับใครจะได้ Output เป็น Login is correct ถ้าไม้ Login is incorrect
+
+
+
+# วิธีติดตั้งเพื่อใช้งาน Frontend
+
