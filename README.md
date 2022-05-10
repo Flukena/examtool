@@ -19,8 +19,8 @@ http://localhost:3000/data
 ```
 http://localhost:3000/register
 ```
-ต้องส่งข้อมูลเป็น Json 
-```
+## ต้องส่งข้อมูลเป็น Json 
+## ```
 {
   "email":"Sakon4", 
   "password":"flukgoza@gmail.com"
